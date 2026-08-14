@@ -4,9 +4,9 @@
 
 img {
     width: auto;
-    height: 250px;
+    height: 310px;
     margin: 60px;
-}
+} /* change this to flex -> want it to shrink to fit box..*/
 
 .swear {
     color: red;
