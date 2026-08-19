@@ -6,73 +6,169 @@
     <title>Surina Livingston - Code, Games, Curiosity</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        * {
-            background-color:rgb(244, 234, 223);
-        }
-
+/*rgb(244, 234, 223)*/
         body {
-            padding: 0;
+            box-sizing: border-box;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
         }
 
         nav {
+            background-color: #374c68;
             padding: 12px;
             border-bottom: 1px dotted hsl(0deg 0% 0% / 0.2);
+            padding: 0px 32px;
         }
 
-        ul {
+        nav ul {
             list-style-type: none;
             align-items: baseline;
             display: flex;
             gap: 12px;
             flex-wrap: wrap;
-            padding-left: 0px;
+            padding-inline: 0px;
         }
 
-        ul a {
-            color: inherit;
+        nav ul a {
+            color: aliceblue;
             text-decoration: none;
             font-size: 0.875rem;
         }
 
-        .name {
-            font-size: 1.125rem;
+        li.name {
+            color: aliceblue;
+            font-size: 24px;
             font-weight: 500;
             margin-right: auto;
-        }
-
-        li.name {
             align-items: center;
         }
 
-        button {
-            background-color: rgb(244, 234, 203);
+        .first-section {
+            background-color: #374c68;
+            display: flex;
+            align-items: center;
+            padding: 48px 32px;
         }
 
-        p {
-            padding: 12px;
+        .welcome {
+            color:aliceblue;
+        }
+
+
+        .second-section {
+            text-align: center;
+            background-color: white;
+        }
+
+        .second-section ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0;
+            gap: 12px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            width: 125px;
+        }
+        .third-section {
+            background-color: #E5E7EB;
+        }
+
+        .fourth-section {
+            background-color: white;
+        }
+
+        footer {
+            background-color: #374c68;
         }
 
     </style>
 </head>
 <body>
-<nav>
-    <ul>
-        <li class="name">Surina Livingston</li>
-        <li>
-            <a href="./pages/resume.html">Code</a>
-        </li>
-        <li>
-            <a href="./pages/game_design.html">Games</a>
-        </li>
-        <li>
-            <a href="./pages/youtube_channel.html">Creativity</a>
-        </li>
-    </ul>
+    <nav>
+        <ul>
+            <li class="name">Surina Livingston</li>
+            <li>
+                <a href="./pages/resume.html">Code</a>
+            </li>
+            <li>
+                <a href="./pages/game_design.html">Games</a>
+            </li>
+            <li>
+                <a href="./pages/youtube_channel.html">Creativity</a>
+            </li>
+        </ul>
 
-</nav>
+    </nav>
 
-<p> Hi, there! I'm building a porfolio site/website to showcase my skills and to practice 
-    what I learn in CSS/HTML/JavaScript. This is a WIP so things will be a bit wonky for a 
-    while but hang in there! I'm getting better day by day! </p>
+    <div class="first-section">
+        <div class="welcome">
+            <h1>
+                Welcome!
+            </h1>
+            <p> Hi, there! I'm building a porfolio site/website to showcase my skills and to practice 
+            what I learn in CSS/HTML/JavaScript. This is a WIP so things will be a bit wonky for a 
+            while but hang in there! I'm getting better day by day! I'm following the Odin project so 
+            this homepage might have some very dramatic changes until I finish learning all the skills to
+            make this project my own...
+            </p>
+            <button>Random Button</button>
+        </div>
+        <img src="images/Universal.JPG" alt="Second page of poster for Skummy Rummy describing game." height="150" width="auto">
+    </div>
+    
+    <div class="second-section">
+        <h2>Random info</h2>
+        <ul>
+            <li>
+                <div class="image-container">
+                    <img src="images/gator.jpeg" alt="Second page of poster for Skummy Rummy describing game." height="100" width="100">
+                    <p>This is an image I took when we visited gatorland</p>
+                </div>
+            </li>
+            <li>
+                <div class="image-container">
+                    <img src="images/gator.jpeg" alt="Second page of poster for Skummy Rummy describing game." height="100" width="100">
+                    <p>This is the same image</p>
+                </div>
+            </li>
+            <li>
+                <div class="image-container">
+                    <img src="images/gator.jpeg" alt="Second page of poster for Skummy Rummy describing game." height="100" width="100">
+                    <p>Gatorland was in Florida</p>
+                </div>
+            </li>
+            <li>
+                <div class="image-container">
+                    <img src="images/gator.jpeg" alt="Second page of poster for Skummy Rummy describing game." height="100" width="100">
+                    <p>It was a family trip and we had lots of fun!</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="third-section">
+        <p class="big-quote">GIANT QUOTE</p>
+        <p class="author"> Should I be using "p" here?</p>
+    </div>
+
+    <div class="fourth-section">
+        <div class="container">
+            <div class="left">
+                <h4>Call to action</h4>
+                <p>words</p>
+            </div>
+            <button class="right">sign up for what?</button>
+        </div>
+    </div>
+
+    <footer>
+        What would I even copyright?
+    </footer>
 </body>
 </html>
