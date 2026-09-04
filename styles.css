@@ -129,6 +129,7 @@
             color: aliceblue;
             border: 2px, solid;
             border-radius: 5rem;
+            padding: 4px;
         }
 
         footer {
