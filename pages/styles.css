@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(244, 234, 223);
+}
+
 .image_block {
     /*width: auto;
     height: 310px;
