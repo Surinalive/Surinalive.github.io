@@ -19,3 +19,18 @@ img {
 .note {
     color: red;
 }
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.title{
+    font-weight: 700;
+    text-align: left;
+}
+
+.date {
+    text-align: right;
+}
