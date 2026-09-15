@@ -4,27 +4,29 @@
 
 body {
     background-color: rgb(244, 234, 223);
+    padding: 24px;
 }
 
-.image_block {
-    /*width: auto;
-    height: 310px;
-    margin: 60px;*/
-    display:flex;
-    flex: 1 1 0%;
-    justify-content: center;
-    align-items: center;
-} /* change this to flex -> want it to shrink to fit box..*/
-
-img {
-    margin: 20px;
+.top-info ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            gap: 12px;
+            flex-wrap: wrap;
+            padding-inline: 0px;
 }
 
-.note {
-    color: red;
+a {
+    color: black;
+
+}
+
+h3 {
+    border-bottom: 4px dotted black;
 }
 
 .info {
+    border-bottom: 1px dashed black;
     display: flex;
     justify-content: space-between;
     gap: 50px;
