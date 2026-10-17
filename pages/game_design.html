@@ -1,68 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Designs</title>
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        
-    </style>
-</head>
-<body>
-    <p> Here's games I'm building or have built!</p>
-    <ul>
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
+  </head>
+  <body>
+    <p>
+      Here's projects I'm building or have built! For TOP projects, I did
+      project specifications only. Maybe I'll go back later and polish it up
+      more but for now, it does what it needs to do and showcases HTML, CSS,
+      JavaScript skills.
+    </p>
+    <div class="unpolishedProjects">
+      <h2>TOP Projects</h2>
+      <ul>
         <li>
-            <h3 /*style="background-color: rgb(116, 163, 205); color: rgb(228, 228, 107);"*/>Skummy Rummy</h3> 
-            <p> This was originally a sibling project turned (mostly) solo project. It 
-                is a WIP and I'm currently working on refactoring all of the code. You can check out the project's github
-                <a href="https://github.com/Surinalive/Skummy-Rummy" target="_blank" rel="noreferrer">here</a>. Look 
-                at the rework branch to see my current progress...</p>
-            <div class="image_block">
-                <img src="../images/Skummy_Rummy_1.png" alt="First page of poster for Skummy Rummy describing game." height="310" width="auto">
-                <img src="../images/Skummy_Rummy_2.png" alt="Second page of poster for Skummy Rummy describing game." height="310" width="auto">
-            </div>
+          <h3>Rock, Paper, Scissors</h3>
+          <p>
+            This was a rock, paper, scissors project that was beginner practive
+            on using javascript. Later, we added buttons to practice event
+            listeners.
+            <a
+              href="https://surinalive.github.io/RockPaperScissors/"
+              target="_blank"
+              rel="noreferrer"
+              >Github</a
+            >
+          </p>
         </li>
-
         <li>
-            <h3>Unnamed pvp raid-type game</h3>
-            <p> This is a game a sibling suggested that I'm currently ruminating on. Key mechanics: </p>
-            <ul>
-                <li>
-                    Players collect/steal warriors and build an army -> send said army to attack other armies....
-                </li>
-            </ul>
+          <h3>Etch-A-Sketch</h3>
+          <p>
+            A really fun project with an adjustable sized grid! Individual
+            squares randomly apply color when hovered and increasingly darken
+            with repeated hovers. This was practice with using javascript to
+            change the DOM tree + style!
+            <a
+              href="https://surinalive.github.io/Etch-a-Sketch/"
+              target="_blank"
+              rel="noreferrer"
+              >Github</a
+            >
+          </p>
         </li>
-
         <li>
-            <h3>Unnamed Multiplayer Restaurant Management Game</h3>
-            <p> This is a project that's been on my mind for a bit after reminiscing about older games I used to be obsessed with. 
-                Think diner dash series and cake mania. Key game mechanics: </p>
-                <ul>
-                    <li>
-                        (Think diner dash mechanics!) Players claim patrons and place them at tables. Once a player claims 
-                        someone, they are responsible for serving the patron until they leave.
-                    </li>
-                    <li>
-                        Workers are responsible for cooking, serving, and doing dishes.. (more mechanic such as entertaining guests, 
-                        smoozing with politicians/investers to expand, maybe starting a garden, etc...)
-                    </li>
-                    <li>
-                        Players can hire people(bots) to do ^^ roles if they don't like the mechanic or only like one aspect of gameplay 
-                        <strong>HOWEVER</strong> they must train the workers!!! Workers start off slow and make lots of mistakes but as 
-                        they gain experience, they become faster until they reach a level of mastery. Player can train the workers by
-                        showing them how to do the tasks to increase their experience significantly (maybe do the task 15 times for mastery).
-                        The idea to make it not too easy was workers have to be trained for each individual recipe/chore,
-                    </li>
-                    <li>
-                       <strong>EVERYTHING</strong> can be replaced by workers so players have lots of flexibility and we can meet multiple playstyles!
-                    </li>
-                </ul>
+          <h3>Calculator</h3>
+          <p>
+            This was bringing everything all together! HTML, CSS, and Javascript
+            all working together to create a working calculator!
+            <a
+              href="https://surinalive.github.io/Calculator/"
+              target="_blank"
+              rel="noreferrer"
+              >Github</a
+            >
+          </p>
         </li>
+      </ul>
+    </div>
 
-    </ul>
-    
+    <div class="games">
+      <h2>Personal Projects</h2>
+      <ul>
+        <li>
+          <h3>Skummy Rummy</h3>
+          <p>
+            This was originally a sibling project turned (mostly) solo project.
+            It is a WIP and I'm currently working on refactoring all of the
+            code. You can check out the project's github
+            <a
+              href="https://github.com/Surinalive/Skummy-Rummy"
+              target="_blank"
+              rel="noreferrer"
+              >here</a
+            >. Look at the rework branch to see my current progress. Key
+            mechanics:
+          </p>
+          <ul class="mechanics">
+            <li>
+              Players begin by playig Rummy. Once someone completes their set,
+              game transitions to maze race to get rid of remaining cards.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>RimWorld Pawn Generator</h3>
+          <p>
+            This will randomly generate the genes and characterics of a pawn
+            (some pawns) for me to use in my RimWorld challenge series.
+          </p>
+        </li>
+        <li>
+          <h3>Unnamed pvp raid-type game</h3>
+          <p>
+            This is a game a sibling suggested that I'm currently ruminating on.
+            Key mechanics:
+          </p>
+          <ul class="mechanics">
+            <li>
+              Players collect/steal warriors and build an army -> send said army
+              to attack other armies....
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>Unnamed Multiplayer Restaurant Management Game</h3>
+          <p>
+            This is a project that's been on my mind for a bit after reminiscing
+            about older games I used to be obsessed with. Think diner dash
+            series and cake mania. Key game mechanics:
+          </p>
+          <ul class="mechanics">
+            <li>
+              (Think diner dash mechanics!) Players claim patrons and place them
+              at tables. Once a player claims someone, they are responsible for
+              serving the patron until they leave.
+            </li>
+            <li>
+              Workers are responsible for cooking, serving, and doing dishes..
+              (more mechanic such as entertaining guests, smoozing with
+              politicians/investers to expand, maybe starting a garden, etc...)
+            </li>
+            <li>
+              Players can hire people(bots) to do ^^ roles if they don't like
+              the mechanic or only like one aspect of gameplay
+              <strong>HOWEVER</strong> they must train the workers!!! Workers
+              start off slow and make lots of mistakes but as they gain
+              experience, they become faster until they reach a level of
+              mastery. Player can train the workers by showing them how to do
+              the tasks to increase their experience significantly (maybe do the
+              task 15 times for mastery). The idea to make it not too easy was
+              workers have to be trained for each individual recipe/chore,
+            </li>
+            <li>
+              <strong>EVERYTHING</strong> can be replaced by workers so players
+              have lots of flexibility and we can meet multiple playstyles!
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
     <a href="../index.html">Back to Home Page!</a>
-        
-</body>
+  </body>
 </html>
