@@ -1,6 +1,6 @@
 /*rgb(244, 234, 223)*/
         body {
-            background-color: rgb(244, 234, 223);;
+            background-color: rgb(244, 234, 223);
             box-sizing: border-box;
             flex: 1;
             display: flex;
@@ -48,13 +48,29 @@
         }
 
         .what-im-doing {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
             border: 4px dashed gray;
             padding: 12px;
         }
 
         .to-do-list {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            text-align: center;
             border: 4px dashed gray;
+            border: 4px dashed rgb(186, 185, 185);
             padding: 12px;
+        }
+
+        .to-do-list ul {
+            display: flex;
+            flex: 1;
+            text-align: left;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
 
         .quote {
@@ -82,4 +98,13 @@
             justify-content: center;
             padding: 12px;
             border-top: 1px dotted hsl(0deg 0% 0% / 0.2);
+        }
+
+        .strike {
+            text-decoration: line-through;
+            text-decoration-color: rgb(194, 140, 6);
+        }
+
+        .update{
+            color: rgb(194, 140, 6);
         }
